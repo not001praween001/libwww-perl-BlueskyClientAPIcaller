@@ -12,7 +12,6 @@ You can install it easyly.
 And use shell script for calling web API to Bluesky Server.
 
 ```shell
-
    #!/bin/sh
    
    edIP="Your RaspberryPI IP address."
