@@ -6,9 +6,7 @@ libwww-perl is a perl library that provides HTTP caller for perl. It is a standa
 You can install it easyly.
 
 ```shell
-
   sudo apt-get install libwww-perl
-
 ```
 
 And use shell script for calling web API to Bluesky Server.
