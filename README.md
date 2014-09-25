@@ -20,9 +20,9 @@ And use shell script for calling web API to Bluesky Server.
 
    BLUESKYSERVER="127.0.0.1:8189"
 
-   GET "http://${server}/etlog?instruction=sensornetwork&opt1=${edIP}&opt2=set&opt3=d&opt4=${GPIO_PIN_NUMBER_OF_YOUR_DEFINE}&opt5=1"
+   GET "http://${BLUESKYSERVER}/etlog?instruction=sensornetwork&opt1=${edIP}&opt2=set&opt3=d&opt4=${GPIO_PIN_NUMBER_OF_YOUR_DEFINE}&opt5=1"
    
-   GET "http://${server}/etlog?instruction=sensornetwork&opt1=${edIP}&opt2=set&opt3=d&opt4=${GPIO_PIN_NUMBER_OF_YOUR_DEFINE}"
+   GET "http://${BLUESKYSERVER}/etlog?instruction=sensornetwork&opt1=${edIP}&opt2=set&opt3=d&opt4=${GPIO_PIN_NUMBER_OF_YOUR_DEFINE}"
 
-   GET "http://${server}/etlog?instruction=sensornetwork&opt1=${edIP}&opt2=set&opt3=d&opt4=${GPIO_PIN_NUMBER_OF_YOUR_DEFINE}&opt5=0"
+   GET "http://${BLUESKYSERVER}/etlog?instruction=sensornetwork&opt1=${edIP}&opt2=set&opt3=d&opt4=${GPIO_PIN_NUMBER_OF_YOUR_DEFINE}&opt5=0"
 ```
